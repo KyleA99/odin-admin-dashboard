@@ -10,6 +10,7 @@ header {
     background-color: aliceblue;
     grid-column: 2/6;
     min-height: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .dashboard-container {
@@ -20,7 +21,6 @@ header {
 }
 
 .main-content {
-    background-color: lightgray;
     grid-row: 2/6;
     grid-column: 2/6;
     min-height: 100px;
