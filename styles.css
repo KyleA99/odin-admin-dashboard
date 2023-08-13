@@ -69,7 +69,7 @@ header {
     margin-bottom: 1rem;
 }
 
-.dashboard-main-content a {
+.dashboard-main-content a, .bottom-content a {
 text-decoration: none;
 }
 
