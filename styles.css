@@ -23,6 +23,7 @@ header {
     grid-row: 1/6;
     grid-column: 1/2;
     min-height: 100px;
+    padding-left: 2.5rem;
 }
 
 .dashboard-header-container {
