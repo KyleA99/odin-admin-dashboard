@@ -101,16 +101,61 @@ text-decoration: none;
     height: 30px;
 }
 
-.site-logo {
+.site-logo-small, .site-logo-large {
+    background-color: gold;
+    border-radius: 100rem;
+}
+
+.site-logo-small {
     height: 60px;
     width: 60px;
     margin-top: -1rem;
-    background-color: gold;
-    border-radius: 100rem;
+}
+
+.site-logo-large {
+    height: 85px;
+    width: 85px;
 }
 
 .header-name {
     font-size: 1.5rem;
     font-weight: bold;
     margin: auto 0;
+}
+
+.header-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30%;
+    margin: 0 2rem;
+}
+
+.header-bottom-left {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.header-greeting {
+    margin: auto 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.header-bottom-right {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 8rem;
+}
+
+.header-bottom-right button {
+    height: 2rem;
+    background-color: rgb(26, 126, 201);
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.header-bottom-right button:hover {
+    background-color: rgb(35, 150, 235);
 }
