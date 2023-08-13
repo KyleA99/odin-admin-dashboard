@@ -80,3 +80,37 @@ text-decoration: none;
     color: black;
     margin-top: 0.25rem;
 }
+
+.header-top {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 15fr 1fr 2fr 5fr;
+    margin: 2rem;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.search-bar {
+    background-color: gray;
+    border-radius: 100rem;
+    margin-right: 10rem;
+    height: 30px;
+}
+
+.site-logo {
+    height: 70px;
+    width: 70px;
+    margin-top: -1rem;
+    background-color: gold;
+    border-radius: 100rem;
+}
+
+.header-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto 0;
+}
