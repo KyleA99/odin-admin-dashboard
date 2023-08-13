@@ -49,6 +49,7 @@ header {
 .dashboard-main-content {
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 2.5rem;
 }
 
 .grid-two-columns {
@@ -58,7 +59,7 @@ header {
     margin-left: 1.5rem;
 }
 
-.dashboard-main-content img {
+.dashboard-main-content img, .bottom-content img {
     width: 30px;
     height: 30px;
     margin-bottom: 1rem;
