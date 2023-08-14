@@ -155,12 +155,10 @@ text-decoration: none;
 .main-content-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* grid-template-rows: 1fr; */
     gap: 1rem;
 }
 
 .main-content-projects {
-    /* 197px is header height */
     min-height: calc(100vh - 250px);
     grid-column: 1/2;
     display: grid;
@@ -178,4 +176,18 @@ text-decoration: none;
 .main-content-sidebar {
     background-color: orange;
     grid-column: 2/3;
+}
+
+.link-container {
+    text-align: right;
+}
+
+.link-container a {
+    text-decoration: none;
+}
+
+.link-container img {
+    height: 25px;
+    width: 25px;
+    margin: 0.5rem;
 }
