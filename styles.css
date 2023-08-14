@@ -151,3 +151,21 @@ text-decoration: none;
 .header-bottom-right button:hover {
     background-color: rgb(35, 150, 235);
 }
+
+.main-content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-template-rows: 1fr; */
+    gap: 2rem;
+}
+
+.main-content-projects {
+    background-color: green;
+    min-height: calc(100vh - 197px);
+    grid-column: 1/2;
+}
+
+.main-content-sidebar {
+    background-color: orange;
+    grid-column: 2/3;
+}
