@@ -156,13 +156,23 @@ text-decoration: none;
     display: grid;
     grid-template-columns: 2fr 1fr;
     /* grid-template-rows: 1fr; */
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .main-content-projects {
-    background-color: green;
-    min-height: calc(100vh - 197px);
+    /* 197px is header height */
+    min-height: calc(100vh - 250px);
     grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1rem 0 0 1rem;
+}
+
+.project {
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .main-content-sidebar {
