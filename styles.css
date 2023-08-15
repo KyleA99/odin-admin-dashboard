@@ -5,6 +5,7 @@ html {
 
 body {
     width: 100%;
+    min-width: 973px;
     min-height: 100%;
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(5, 1fr);
