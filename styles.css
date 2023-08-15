@@ -209,9 +209,8 @@ text-decoration: none;
 }
 
 .sidebar-bottom-content img {
-    height: 40px;
-    width: 40px;
-    background-color: gold;
+    height: 50px;
+    width: 50px;
     border-radius: 100rem;
     margin: 1rem;
 }
@@ -222,7 +221,7 @@ h4 {
 
 .sidebar-grid-column {
     display: grid;
-    grid-template-columns: 75px 1fr;
+    grid-template-columns: 100px 1fr;
 }
 
 .sidebar-bottom-content p {
@@ -230,9 +229,25 @@ h4 {
 }
 
 .sidebar-bottom-content h4 {
-    margin: 1rem 0 0;
+    margin: 1.5rem 0 0;
 }
 
 .sidebar-bottom-content p, .project p, .sidebar-top-content p {
     color: gray;
+}
+
+.dog {
+    background-color: rgb(133, 184, 255);
+}
+
+.cat {
+        background-color: rgb(255, 137, 137);
+}
+
+.fish {
+        background-color: rgb(134, 255, 134);
+}
+
+.penguin {
+        background-color: rgb(253, 253, 138);
 }
