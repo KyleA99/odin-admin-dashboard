@@ -159,7 +159,7 @@ text-decoration: none;
 }
 
 .main-content-projects {
-    min-height: calc(100vh - 350px);
+    /* min-height: calc(100vh - 350px); */
     grid-column: 1/2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -175,6 +175,7 @@ text-decoration: none;
 
 .main-content-sidebar {
     grid-column: 2/3;
+    margin-right: 1rem;
 }
 
 .link-container {
@@ -229,7 +230,7 @@ h4 {
 
 .sidebar-grid-column {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 90px 1fr;
 }
 
 .sidebar-bottom-content p {
@@ -258,4 +259,9 @@ h4 {
 
 .penguin {
         background-color: rgb(253, 253, 138);
+}
+
+.trending-text-content a {
+    text-decoration: none;
+    color: black;
 }
