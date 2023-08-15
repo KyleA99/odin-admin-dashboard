@@ -174,7 +174,6 @@ text-decoration: none;
 }
 
 .main-content-sidebar {
-    background-color: orange;
     grid-column: 2/3;
 }
 
@@ -198,5 +197,42 @@ text-decoration: none;
 
 .main-content-sidebar {
     display: grid;
-    
+}
+
+.sidebar-top-content, .sidebar-bottom-content {
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.sidebar-top-content {
+    margin-bottom: 1rem;
+}
+
+.sidebar-bottom-content img {
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    border-radius: 100rem;
+    margin: 1rem;
+}
+
+h4 {
+    margin: 0;
+}
+
+.sidebar-grid-column {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+}
+
+.sidebar-bottom-content p {
+    margin: 0;
+}
+
+.sidebar-bottom-content h4 {
+    margin: 1rem 0 0;
+}
+
+.sidebar-bottom-content p, .project p, .sidebar-top-content p {
+    color: gray;
 }
