@@ -199,9 +199,17 @@ text-decoration: none;
     display: grid;
 }
 
+.sidebar-top-content {
+    padding: 1rem;
+}
+
 .sidebar-top-content, .sidebar-bottom-content {
     background-color: aliceblue;
     border-radius: 1rem;
+}
+
+.sidebar-top-content p {
+    margin: 0.5rem 0;
 }
 
 .sidebar-top-content {
