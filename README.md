@@ -10,7 +10,7 @@ This project was completed as part of The Odin Project, however, I decided to ad
 
 ### Links
 
-- Live Site URL: [Dashboard - live link]()
+- Live Site URL: [Dashboard - live link](https://kylea99.github.io/odin-admin-dashboard/)
 
 ### Built with
 
