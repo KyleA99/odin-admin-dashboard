@@ -1,3 +1,18 @@
+:root {
+    --clr-blue-primary: rgb(26, 126, 201);
+    --clr-blue-secondary: rgb(35, 150, 235);
+    --clr-accent-primary: gold;
+    --clr-dog: rgb(133, 184, 255);
+    --clr-cat: rgb(255, 137, 137);
+    --clr-fish: rgb(134, 255, 134);
+    --clr-penguin: rgb(253, 253, 138);
+    --clr-neutral-primary: lightgray;
+    --clr-neutral-secondary: aliceblue;
+    --clr-neutral-tertiary: gray;
+    --clr-neutral-quaternary: black;
+    --clr-shadow: rgba(0, 0, 0, 0.15);
+}
+
 html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -9,18 +24,18 @@ body {
     min-height: 100%;
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(5, 1fr);
-    background-color: lightgray;
+    background-color: var(--clr-neutral-primary);
 }
 
 header {
-    background-color: aliceblue;
+    background-color: var(--clr-neutral-secondary);
     grid-column: 2/6;
     min-height: 150px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--clr-shadow);
 }
 
 .dashboard-container {
-    background-color: rgb(26, 126, 201);
+    background-color: var(--clr-blue-primary);
     grid-row: 1/6;
     grid-column: 1/2;
     height: 100%;
@@ -78,7 +93,7 @@ text-decoration: none;
 
 .grid-two-columns div {
     font-size: 1.25rem;
-    color: black;
+    color: var(--clr-neutral-quaternary);
     margin-top: 0.25rem;
 }
 
@@ -96,7 +111,7 @@ text-decoration: none;
 }
 
 .search-bar {
-    background-color: gray;
+    background-color: var(--clr-neutral-tertiary);
     border-radius: 100rem;
     margin-right: 10rem;
     height: 30px;
@@ -106,7 +121,7 @@ text-decoration: none;
     height: 60px;
     width: 60px;
     margin-top: -1rem;
-    background-color: gold;
+    background-color: var(--clr-accent-primary);
     border-radius: 100rem;
 }
 
@@ -143,14 +158,14 @@ text-decoration: none;
 
 .header-bottom-right button {
     height: 2rem;
-    background-color: rgb(26, 126, 201);
+    background-color: var(--clr-blue-primary);
     border-radius: 5rem;
     border: none;
     cursor: pointer;
 }
 
 .header-bottom-right button:hover {
-    background-color: rgb(35, 150, 235);
+    background-color: var(--clr-blue-secondary);
 }
 
 .main-content-grid {
@@ -168,7 +183,7 @@ text-decoration: none;
 }
 
 .project {
-    background-color: aliceblue;
+    background-color: var(--clr-neutral-secondary);
     padding: 1rem;
     border-radius: 1rem;
 }
@@ -210,7 +225,7 @@ text-decoration: none;
 }
 
 .sidebar-top-content, .sidebar-bottom-content {
-    background-color: aliceblue;
+    background-color: var(--clr-neutral-secondary);
     border-radius: 1rem;
 }
 
@@ -247,26 +262,26 @@ h4 {
 }
 
 .sidebar-bottom-content p, .project p, .sidebar-top-content p {
-    color: gray;
+    color: var(--clr-neutral-tertiary);
 }
 
 .dog {
-    background-color: rgb(133, 184, 255);
+    background-color: var(--clr-dog);
 }
 
 .cat {
-        background-color: rgb(255, 137, 137);
+        background-color: var(--clr-cat);
 }
 
 .fish {
-        background-color: rgb(134, 255, 134);
+        background-color: var(--clr-fish);
 }
 
 .penguin {
-        background-color: rgb(253, 253, 138);
+        background-color: var(--clr-penguin);
 }
 
 .trending-text-content a {
     text-decoration: none;
-    color: black;
+    color: var(--clr-neutral-quaternary);
 }
