@@ -86,7 +86,7 @@ text-decoration: none;
     gap: 1rem;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 15fr 1fr 2fr 5fr;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .logo {
