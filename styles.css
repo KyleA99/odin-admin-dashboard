@@ -186,9 +186,19 @@ text-decoration: none;
 }
 
 .project {
+    display: grid;
+    grid-template-columns: 1fr 50fr;
     background-color: var(--clr-neutral-secondary);
-    padding: 1rem;
     border-radius: 1rem;
+    overflow: hidden;
+}
+
+.gold-accent {
+    background-color: rgb(232, 197, 1);
+}
+
+.project-main-content {
+    margin: 0 1rem;
 }
 
 .main-content-sidebar {
