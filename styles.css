@@ -2,6 +2,7 @@
     --clr-blue-primary: rgb(26, 126, 201);
     --clr-blue-secondary: rgb(35, 150, 235);
     --clr-accent-primary: gold;
+    --clr-accent-secondary: rgb(232, 197, 1);
     --clr-dog: rgb(133, 184, 255);
     --clr-cat: rgb(255, 137, 137);
     --clr-fish: rgb(134, 255, 134);
@@ -194,7 +195,7 @@ text-decoration: none;
 }
 
 .gold-accent {
-    background-color: rgb(232, 197, 1);
+    background-color: var(--clr-accent-secondary);
 }
 
 .project-main-content {
